@@ -1,7 +1,7 @@
 services:
 
   postgres:
-    image: 'postgres:latest'
+    image: "postgres:16"
     environment:
       POSTGRES_DB: poc
       POSTGRES_USER: postgres
